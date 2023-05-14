@@ -65,7 +65,7 @@ body{
 /*seccion la conferencia - hermano de headerNav*/
 .laConferencia{
     height: 85%;
-    background: linear-gradient(to bottom, #0f0d0fcc ,#1e1b1e7a, #0f0d0fcc) ,url("/assets/img/ba1.jpg"); /*degradado lineal de fondo*/
+    background: linear-gradient(to bottom, #0f0d0fcc ,#1e1b1e7a, #0f0d0fcc) ,url("../assets/img/ba1.jpg"); /*degradado lineal de fondo*/
     background-size: cover; /*cubierta de tamaño de fondo*/
     background-position: center; /*centro de posicion de fondo*/
     background-repeat: no-repeat; /*fondo repetir sin repetir*/
@@ -173,7 +173,7 @@ body{
 }
 .left{width: 50%;
 
-    background-image: url(/assets/img/ba3.jpg);
+    background-image: url(../assets/img/ba3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -283,7 +283,7 @@ padding: 2%;
     .laConferencia{
         height: 70vh;
         width: 69vh;
-        background: linear-gradient(to bottom, #0000003c, #0f0d0f5c), url("/assets/img/madero-port-g921facdbb_640.jpg");
+        background: linear-gradient(to bottom, #0000003c, #0f0d0f5c), url("../assets/img/madero-port-g921facdbb_640.jpg");
         background-size: cover; /*cubierta de tamaño de fondo*/
         background-position: center; /*centro de posicion de fondo*/
         background-repeat: no-repeat; /*fondo repetir sin repetir*/
