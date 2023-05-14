@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto</title>
+        <!--estilos externos CORRECTA!!-->
+        <!-- favicon-->
+        <link rel="shortcut icon" href="/assets/img/codoacodo.png" type="image/x-icon">
+        <!--kit de fontawesome-->
+        <script src="https://kit.fontawesome.com/c538ed8188.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/estilos_vdos.css">
+        
+    </head>
+    <!--sintaxsis de atributo en linea
+     <body style="background-color: rgb(249, 159, 174);">-->
+    <body>
+       <header class="header">
+            <div class="headerNav">
+                <div class="contenedorLogo">
+                    <a href="#"><img src="./assets/img/codoacodo.png" alt="Logo"></a>
+                    <h2>Conf. Bs.As.</h2>
+                
+                </div>
+                <nav class="navegacion">
+                    <ul class="listaNav">
+                        <li><a class="linkNav" href="#laConferencia">La Conferencia</a></li>
+                        <li><a class="linkNavGris" href="#losOradores">Los Oradores</a></li>
+                        <li><a class="linkNavGris" href="#lugarYfecha">Lugar y La Fecha</a></li>
+                        <li><a class="linkNavGris" href="#convierteteEnOrador">Conviertete en Orador</a></li>
+                        <li><a class="linkNavVerde" href="./pages/comprar_tickets.html">Comprar tickets</a></li>
+                    
+                    </ul>
+                
+                </nav>
+            </div>  
+            <section id ="laConferencia" class="laConferencia">
+             <div class="contenedorTextConf">
+                 <h1>Conferencia Bs.As.</h1>
+                 <p class="parrafoConferencia">Bs As por primera vez a Argentina. Un evento para compartir con nuestra comunidad del conocimiento y experiencia de los expertos que éstan creando el futuro del internet. Ven a conocer a miembros del evento, a otros alumnos de codo a codo y los oradores del primer nivel que tenemos para ti. Te esperamos!</p>
+                  <div class="boton">
+                     <a class="quieroSerOrador" href="#convierteteEnOrador">Quiero ser orador</a>
+                     <a class="botonComprarTickets" href="./pages/comprar_tickets.html">Comprar tickets</a>
+                 </div>
+             </div>
+            </section>
+       </header>
+       <main>
+            <section id="losOradores" class="sectionOradores">
+                <span><p>CONOCE A LOS</p></span><h2 br> ORADORES</h2>
+                <div class="padreCards">
+                    <div class="card" id="cardUno">
+                        <img src="./assets/img/steve.jpg" alt="Steve Jobs">
+                        <div class="cardBody">
+                            <div class="cardtags">
+                                <h4 class="tituloCardBodyAmarillo">Javascript</h4>
+                                <h4 class="tituloCardBodyCeleste">React</h4>
+                            </div>
+                            <h2>Steve Jobs</h2>
+                            <p>fue un informático y empresario estadounidense, fundador de Apple Computer, una de las empresas más innovadoras del sector tecnológico. Su visión y creatividad revolucionaron los mercados y los hábitos de millones de personas con productos como el iPod, el iPhone y el iPad.</p>
+                        </div>
+                       
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/bill.jpg" alt="Bill Gates">
+                        <div class="cardBody">
+                            <div class="cardtags">
+                                <h4 class="tituloCardBodyAmarillo">Javascript</h4>
+                                <h4 class="tituloCardBodyCeleste">React</h4>
+                            </div>
+                            <h2>Bill Gates</h2>
+                            <p>es un empresario, filántropo e innovador estadounidense. Es el cofundador de Microsoft, la empresa líder en software y tecnología. También es el fundador de la Fundación Bill y Melinda Gates, que se dedica a mejorar la salud y la educación en el mundo. Bill Gates es una de las personas más influyentes y ricas del planeta.</p>
+                        </div>
+                      
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/ada.jpeg" alt="Ada">
+                        <div class="cardBody">
+                            <div class="cardtags">
+                                <h4 class="tituloCardBodyGris">Negocios</h4>
+                                <h4 class="tituloCardBodyRojo">Startups</h4>
+                            </div>
+                            <h2>Ada Lovelace</h2>
+                            <p>Fue una matemática y escritora británica que se destacó por su trabajo en el proyecto de la máquina analítica de Charles Babbage. Se la considera la primera programadora de la historia, ya que escribió el primer algoritmo destinado a ser procesado por una máquina.!</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section id="lugarYfecha" class="lugarFecha">
+                <div class="left"></div>
+                <div class="right">
+                    <h2>Bs.As - Octubre</h2>
+                    <p>La provincia de Buenos Aires es la más poblada y extensa de Argentina. Su capital es La Plata, una ciudad fundada en 1882 con un diseño urbanístico único. La provincia se divide en 135 partidos, que abarcan desde la región pampeana hasta la costa atlántica. La ciudad de Buenos Aires, que fue su capital hasta 1880, es una entidad autónoma que no forma parte de la provincia, aunque está rodeada por ella. La ciudad de Buenos Aires es el centro político, económico y cultural del país, y una de las metrópolis más importantes de América Latina.</p>
+                    <a class="conoceMas" href="">Conocé Más</a>
+                </div>
+            </section>
+            <section id="convierteteEnOrador" class="formularioOrador">
+                <span><p> CONVIERTETE EN UN </p></span><h2 br> ORADOR</h2>
+                <p>Anótate como orador para dar una <span class="ignite">charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
+                <form action="" autocomplete="on">
+                    <div>
+                        <input class="inputNA" type="text" placeholder="Nombre" required>
+                        <input class="inputNA" type="text" placeholder="Apellido" required>
+                    </div>
+                    <div>
+                        <textarea class="textarea" name="" id="" cols="44" rows="6" placeholder="Sobre que quieres hablar?" required></textarea>
+                    </div>
+                    <p>Recuerda incluir un título para la charla</p>
+                    <div>
+                        <input type="submit" value="Enviar" class="formSubmit">
+                    </div>
+                </form>
+            </section>
+       </main>
+     
+       <footer class="footer">
+            <div class="contenedorFooter">
+                <a class="linkFooter" href="">Preguntas frecuentes</a>
+                <a class="linkFooter" href="">Contáctanos</a>
+                <a class="linkFooter" href="">Prensa</a>
+                <a class="linkFooter" href="">Conferencias</a>
+                <a class="linkFooter" href="">Términos y condiciones</a>
+                <a class="linkFooter" href="">Privacidad</a>
+                <a class="linkFooter" href="">Estudiantes</a>
+                <!--
+                <a href=""><i class="fa-brands fa-instagram iconInstagram"></i></a>
+                <a href=""><img class="wsp" src="./assets/img/whatsapp.png" alt="what"></a>
+                -->
+            </div>
+       </footer>
+
+    </body>
+</html>
